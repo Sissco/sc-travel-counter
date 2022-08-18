@@ -1,72 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 
 body {
-    background-image: url("italy-lago-di-braies");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
-    font-family:'Aboreto', cursive, 'sans serif';
-    font-weight: bold;
-    text-align: center;
+  background-image: url("italy-lago-di-braies");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  font-family:'Aboreto', cursive, 'sans serif';
+  font-weight: bold;
+  text-align: center;
 }
 
 h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 20px;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
-h1, p { 
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.65);
+h1, p {
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.65);
 }
 
-p { font-size: 1.5rem; 
-    margin-top: 2rem;
-    color: #fff;
+p { font-size: 1.5rem;
+  margin-top: 2rem;
+  color: #fff;
 }
 
 .container {
-    margin: 50px auto;
-    max-width: 500px;
-    padding: 30px;
-    border: 3px solid rgba(25,33,32, 0.65);
-    border-radius: 25px;
-    box-shadow: inset 2px 0px 6px rgba(0,0,0,0.55);
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+  border: 3px solid rgba(25,33,32, 0.65);
+  border-radius: 25px;
+  box-shadow: inset 2px 0px 6px rgba(0,0,0,0.55);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 button {
-    border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-weight: bold;
-    width: 150px;
-    margin-bottom: 5px;
-    margin-left: 20px;
-    border-radius: 15px;
-    cursor: pointer;
-    font-family:'Aboreto', cursive, 'sans serif';
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.25);
-    box-shadow: 2px 0px 6px rgba(0,0,0,0.55);
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-family:'Aboreto', cursive, 'sans serif';
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.25);
+  box-shadow: 2px 0px 6px rgba(0,0,0,0.55);
 }
 
 #increment-btn {
-    background: darkred;
-    margin-left: 0;
-    background: rgb(160,168,176);
-    color: rgb(25,33,32);
+  background: darkred;
+  margin-left: 0;
+  background: rgb(160,168,176);
+  color: rgb(25,33,32);
 }
 
 #save-btn {
-    background: darkgreen;
-    color: rgb(225,226,228);
-    background: rgb(87, 127, 116);
+  background: darkgreen;
+  color: rgb(225,226,228);
+  background: rgb(87, 127, 116);
 }
-
-
-
